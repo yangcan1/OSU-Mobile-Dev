@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/food_search"
+        android:title="@string/label_food_search"
+        android:icon="@drawable/ic_baseline_search_24"/>
+    <item
+        android:id="@+id/saved_recipes"
+        android:title="@string/label_saved_recipes"
+        android:icon="@drawable/ic_starred"/>
+    <item
+        android:id="@+id/calorie_analysis"
+        android:title="@string/label_calorie_analysis"
+        android:icon="@drawable/ic_calorie_counter"/>
+</menu>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/food_search">
+
+    <action
+        android:id="@+id/navigate_to_search"
+        app:destination="@id/food_search" />
+
+    <fragment
+        android:id="@+id/food_search"
+        android:name="com.example.foodrecipe.ui.FoodSearchFragment"
+        android:label="@string/label_food_search" />
+    <fragment
+        android:id="@+id/favorite_recipes"
+        android:name="com.example.foodrecipe.ui.FoodSearchFragment"
+        android:label="@string/label_food_search"/>
+    <fragment
+        android:id="@+id/specific_recipe_view"
+        android:name="com.example.foodrecipe.ui.FoodViewFragment"
+        android:label="@string/recipe_viewer_label" />
+    <fragment
+        android:id="@+id/saved_recipes"
+        android:name="com.example.foodrecipe.ui.SavedRecipesFragment"
+        android:label="@string/label_saved_recipes" />
+    <fragment
+        android:id="@+id/calorie_analysis"
+        android:name="com.example.foodrecipe.ui.CalorieFragment"
+        android:label="@string/calorie_counter_label" />
+</navigation>

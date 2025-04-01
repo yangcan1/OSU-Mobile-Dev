@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Food Recipe</string>
+    <string name="action_bookmark">Bookmark</string>
+
+    <string name="label_food_search">Recipe Search</string>
+    <string name="label_saved_recipes">Saved Recipes</string>
+    <string name="label_calorie_analysis">Calorie Counter</string>
+    <string name="label_favorite_recipe">Favorite Recipes</string>
+    <string name="label_specific_recipe">Opened Recipe</string>
+
+    <string name="recipe_image_description">Image of the completed recipe</string>
+
+    <!-- Below are strings related to preferences/settings -->
+    <string name="pref_category_search">Search settings</string>
+
+    <string name="pref_sort_title">Sort by</string>
+    <string name="pref_user_title">Search only for repos by this GitHub user</string>
+    <string name="pref_language_title">Search by programming language</string>
+    <string name="pref_first_issues_title">Minimum number of good first issues</string>
+
+    <string name="pref_sort_key" translatable="false">sort</string>
+    <string name="pref_user_key" translatable="false">user</string>
+    <string name="pref_language_key" translatable="false">language</string>
+    <string name="pref_first_issues_key" translatable="false">first_issues</string>
+
+    <string name="pref_sort_entry_stars">Stars</string>
+    <string name="pref_sort_entry_forks">Forks</string>
+    <string name="pref_sort_entry_updated">Most-recently updated</string>
+
+    <string name="pref_sort_val_stars" translatable="false">stars</string>
+    <string name="pref_sort_val_forks" translatable="false">forks</string>
+    <string name="pref_sort_val_updated" translatable="false">updated</string>
+
+    <string name="pref_sort_default">@string/pref_sort_val_stars</string>
+
+    <string name="pref_language_entry_c">C</string>
+    <string name="pref_language_entry_cpp">C++</string>
+    <string name="pref_language_entry_java">Java</string>
+    <string name="pref_language_entry_kotlin">Kotlin</string>
+    <string name="pref_language_entry_javascript">Javascript</string>
+    <string name="pref_language_entry_rust">Rust</string>
+    <string name="pref_language_entry_python">Python</string>
+
+    <string name="pref_language_val_c" translatable="false">c</string>
+    <string name="pref_language_val_cpp" translatable="false">c++</string>
+    <string name="pref_language_val_java" translatable="false">java</string>
+    <string name="pref_language_val_kotlin" translatable="false">kotlin</string>
+    <string name="pref_language_val_javascript" translatable="false">javascript</string>
+    <string name="pref_language_val_rust" translatable="false">rust</string>
+    <string name="pref_language_val_python" translatable="false">python</string>
+    <string name="spoon_api_key">0673a6ace9534edd9fd413f39885c9bb</string>
+    <string name="ingredient_list_label">Ingredients:</string>
+    <string name="recipe_instructions_label">Instructions:</string>
+    <string name="recipe_viewer_label">Recipe Viewer</string>
+    <string name="calorie_counter_label">Calorie Counter</string>
+</resources>
